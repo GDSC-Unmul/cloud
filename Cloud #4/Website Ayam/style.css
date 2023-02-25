@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	background-image: url("gambar/ayam_leher_panjang.jpg");
+	background-color: #484c54;
+}
+
+.container{
+}
+
+.header {
+	padding: 25px;
+	text-align: center;
+	background-color: #484c54;
+}
+
+.navbar {
+	display: flex;
+	background-color: #8b9bb5;
+}
+
+.navbar a {
+	padding: 10px 20px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.navbar a:hover {
+	color: black;
+}
+
+.content {
+	text-align: center;
+}
+
+.footer{
+    height:50px;
+    line-height:50px;
+    bottom:0px;
+    width:100%;
+	text-align: center;
+	position:absolute;
+	background-color: #8b9bb5;
+}
