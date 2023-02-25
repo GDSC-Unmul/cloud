@@ -1,5 +1,5 @@
 # Deployment a Flask API
-[Create Firewall Rule]
+## [Create Firewall Rule]
 1. Open Navigation Menu > VPC Networks > Firewall
 2. Select Create Firewall Rule
 3. Fill the form like this :
