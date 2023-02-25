@@ -15,7 +15,7 @@
 2. Select Create Instance
 3. Go to Machine Configuration, select series N1 and Machine type f1-micro
 4. Open Advanced Options > Networking
-5. Fill Network Tags form with name of firewall rule you create before
+5. Fill Network Tags form with name Target Tags of firewall rule you create before
 6. If you done, select Create button to create the VM
 
 ## Deploy a Flask API
