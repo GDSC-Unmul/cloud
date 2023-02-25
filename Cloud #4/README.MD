@@ -3,11 +3,11 @@
 1. Open Navigation Menu > VPC Networks > Firewall
 2. Select Create Firewall Rule
 3. Fill the form like this :
-Name : allow-http-8080
-Targets: Specified target tags
-Target tags: http-server-8080
-Source-ip: 0.0.0.0/0
-TCP: 8080
+- Name : allow-http-8080
+- Targets: Specified target tags
+- Target tags: http-server-8080
+- Source-ip: 0.0.0.0/0
+- TCP: 8080
 4. If you done, select Create button to create the firewall rule
 
 [Create VM]
