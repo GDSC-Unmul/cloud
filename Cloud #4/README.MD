@@ -36,4 +36,4 @@ $ pip install -r requirements.txt
 - Running Flask (Production mode)
 $ gunicorn -b 0.0.0.0:8080 'main:app'
 
-3. If gunicorn is complete running, open the website with externap IP and port. You can check external IP in Compute Engine dashboard. You can write "http://{external_ip}:8080" in your browser.
+3. If gunicorn is complete running, open the website with externap IP and port. You can check external IP in Compute Engine dashboard. You can write "http://{external_ip}:8080" in your browser.a
