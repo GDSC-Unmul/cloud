@@ -22,18 +22,18 @@
 1. Open your instances with SSH, select the SSH button
 2. Run this command below :
 - Update system
-sudo apt update
-sudo apt upgrade
+$ sudo apt update
+$ sudo apt upgrade
 
 - Install Python, PIP, and GIT
-sudo apt install python3 python3-pip git
+$ sudo apt install python3 python3-pip git
 
 - Clone repo and install library
-git clone https://github.com/GDSC-Unmul/cloud
-cd 'cloud/Cloud #4'
-pip install -r requirements.txt
+$ git clone https://github.com/GDSC-Unmul/cloud
+$ cd 'cloud/Cloud #4'
+$ pip install -r requirements.txt
 
 - Running Flask (Production mode)
-gunicorn -b 0.0.0.0:8080 'main:app'
+$ gunicorn -b 0.0.0.0:8080 'main:app'
 
 3. If gunicorn is complete running, open the website with externap IP and port. You can check external IP in Compute Engine dashboard. You can write "http://{external_ip}:8080" in your browser.
