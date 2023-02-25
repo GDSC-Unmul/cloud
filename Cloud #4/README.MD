@@ -1,5 +1,5 @@
 # Deployment a Flask API
-## [Create Firewall Rule]
+## Create Firewall Rule
 1. Open Navigation Menu > VPC Networks > Firewall
 2. Select Create Firewall Rule
 3. Fill the form like this :
@@ -10,7 +10,7 @@
 - TCP: 8080
 4. If you done, select Create button to create the firewall rule
 
-[Create VM]
+## Create VM
 1. Open Navigation Menu > Compute Engine  > VM Instances
 2. Select Create Instance
 3. Go to Machine Configuration, select series N1 and Machine type f1-micro
@@ -18,7 +18,7 @@
 5. Fill Network Tags form with name of firewall rule you create before
 6. If you done, select Create button to create the VM
 
-[Deploy a Flask API]
+## Deploy a Flask API
 1. Open your instances with SSH, select the SSH button
 2. Run this command below :
 - Update system
