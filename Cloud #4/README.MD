@@ -25,16 +25,13 @@
 + sudo apt update
 + sudo apt upgrade
 
-
 - Install Python, PIP, and GIT
 + sudo apt install python3 python3-pip git
-
 
 - Clone repo and install library
 + git clone https://github.com/GDSC-Unmul/cloud
 + cd 'cloud/Cloud #4'
 + pip install -r requirements.txt
-
 
 - Running Flask (Production mode)
 + gunicorn -b 0.0.0.0:8080 'main:app'
