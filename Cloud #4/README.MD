@@ -1,4 +1,4 @@
-# Deployment a Flask API
+# Deploy a Flask API
 ## Create Firewall Rule
 1. Open Navigation Menu > VPC Networks > Firewall
 2. Select Create Firewall Rule
@@ -36,3 +36,7 @@
 - Running Flask (Production mode)
 + gunicorn -b 0.0.0.0:8080 'main:app'
 3. If gunicorn is complete running, open the website with externap IP and port. You can check external IP in Compute Engine dashboard. You can write "http://{external_ip}:8080" in your browser.a
+
+# Deploy a Website to NGINX
+## You can access this below link to see the tutorial
+https://www.cloudskillsboost.google/focuses/3563?parent=catalog
