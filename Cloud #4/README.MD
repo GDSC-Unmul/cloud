@@ -1,5 +1,6 @@
-# Deploy a Flask API
-## Create Firewall Rule
+# Guide
+## Deploy a Flask API
+### Create Firewall Rule
 1. Open Navigation Menu > VPC Networks > Firewall
 2. Select Create Firewall Rule
 3. Fill the form like this :
@@ -10,7 +11,7 @@
 - TCP: 8080
 4. If you done, select Create button to create the firewall rule
 
-## Create VM
+### Create VM
 1. Open Navigation Menu > Compute Engine  > VM Instances
 2. Select Create Instance
 3. Go to Machine Configuration, select series N1 and Machine type f1-micro
@@ -18,7 +19,7 @@
 5. Fill Network Tags form with name Target Tags of firewall rule you create before
 6. If you done, select Create button to create the VM
 
-## Deploy a Flask API
+### Deploy a Flask API
 1. Open your instances with SSH, select the SSH button
 2. Run this command below :
 - [Update system]
@@ -37,8 +38,8 @@
 + gunicorn -b 0.0.0.0:8080 'main:app'
 3. If gunicorn is complete running, open the website with externap IP and port. You can check external IP in Compute Engine dashboard. You can write "http://{external_ip}:8080" in your browser.a
 
-# Deploy a Website Ayam to NGINX
+## Deploy a Website Ayam to NGINX
 https://www.cloudskillsboost.google/focuses/3563?parent=catalog
 
-# Deploy a Minecraft Server
+## Deploy a Minecraft Server
 https://minecraft.fandom.com/wiki/Tutorials/Setting_up_a_server#Linux_instructions
