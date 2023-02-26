@@ -38,7 +38,7 @@
 + gunicorn -b 0.0.0.0:8080 'main:app'
 3. If gunicorn is complete running, open the website with externap IP and port. You can check external IP in Compute Engine dashboard. You can write "http://{external_ip}:8080" in your browser.a
 
-## Deploy a Website Ayam to NGINX
+## Deploy a Website to NGINX
 https://www.cloudskillsboost.google/focuses/3563?parent=catalog
 
 ## Deploy a Minecraft Server
